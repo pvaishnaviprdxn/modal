@@ -155,7 +155,9 @@ h1 a img {
 .menu-name.active {
     background-color: rgb(65,159,226);
 }
+/*head2 style end*/
 
+/*head3 style start*/
 .head3  { background-color: rgb(44,94,171); }
 
 .head3 .wrapper { padding-top: 80px; }
@@ -187,8 +189,7 @@ h1 a img {
     color: rgb(253,254,254);
     font-size: 12px;
 }
-
-/*head2 style end*/
+/*head3 style end*/
 /*=================================
   Header styling ends here
 =================================*/  
@@ -196,14 +197,172 @@ h1 a img {
 /*=================================
   main styling starts here
 =================================*/
+/*conference section start*/
+section { margin-bottom: 30px; }
 
+.about-section { 
+    padding: 20px 0;
+    font-size: 12px; 
+}
 
+.about-section a:nth-child(1):after {
+    content:"\f105";
+    color: rgb(19, 19, 19);
+    font-size: 12px;
+    font-family: "Fontawesome";
+    font-weight: bold;
+}
 
+.about-section a:nth-child(1),
+.about-section a:nth-child(2) {
+    text-transform: capitalize;
+    color: rgb(19, 19, 19);
+}
 
+h2 { 
+    text-transform: capitalize;
+    font-size: 22px;
+    color: rgb(64,159,226);
 
+}
 
+.conferences-content {
+    margin: 35px 0;
+    display: flex;
+    -webkit-display:flex;
+    -moz-display:flex;
+    -ms-display:flex;
+    -o-display:flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+}
 
+.conferences-content li{ width: 31.56%; }
 
+.conferences-content li:nth-child(1),
+.conferences-content li:nth-child(2),
+.conferences-content li:nth-child(4),
+.conferences-content li:nth-child(5) { margin-right: 20px; }
+
+.conferences-content li img { height: 130px; }
+
+.conferences-content li a {
+    text-transform: capitalize;
+    padding: 6px 0;
+    display: block;
+    color: rgb(64,159,226);
+    font-size: 15px;
+}
+
+.locn-date {
+    color: rgb(73, 72, 72);
+    font-size: 13px;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+  
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*js style*/
+.block { display: block; }
+.none { display: none; }
+/*conference section end*/
+
+/*sponsor speaker section styling start*/
+.sponsor,
+.speaker {
+    width: 37%;
+    height: 158px;
+    padding: 35px 45px;
+    background-color: rgb(60,114,168);
+}
+
+.sponsor { display: inline-block; }
+.speaker { float: right; }
+
+.sponsor h3,
+.speaker h3 {
+    color: rgb(64,159,226);
+    font-size: 18px;
+}
+
+.about-sponsor,
+.about-speaker { padding: 12px 0; }
+.about-sponsor li,
+.about-speaker li {
+    padding: 6px 12px;
+    line-height: 1;
+}
+.list-points {
+    font-size: 14px;
+    color: rgb(253,254,254);
+}
+.list-points:before {
+    content: "\f111";
+    vertical-align: middle;
+    padding-right: 10px;
+    font-family: "Fontawesome";
+    font-size: 7px;
+}
+
+.sponsor a,
+.speaker a {
+    padding: 6px 12px;
+    background-color: rgb(64,159,226);
+    color: rgb(253,254,254);
+    font-size: 12px;
+}
+/*sponsor speaker section styling end*/
+/*event section styling start*/
+.event p {
+    font-size: 13px;
+    padding: 10px 0px;
+}
+
+.find-more a {
+    padding: 6px 25px;
+    background-color: rgb(64,159,226);
+    color: rgb(253,254,254);
+    font-size: 12px;
+}
+/*event section styling end*/
 /*=================================
   main styling ends here
 =================================*/
@@ -211,13 +370,119 @@ h1 a img {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer {
+    background-color: rgb(44,94,171);
+    padding-top: 35px;
+}
+.sign-up {
+    height: 100%;
+}
+.sign-up h4 {
+    text-transform: capitalize;
+    color: rgb(64,159,226);
+    font-size: 18px;
+}
 
+.sign-form {
+    margin-top: 13px;
+    color: rgb(253,254,254);
+}
 
+.sign-text { font-size: 14px;}
+.signup-email { 
+    float: right; 
+    background-color: rgb(65,159,226);
+}
 
+.signup-email input[type="text"] {
+    width: 220px;
+    padding: 3px 2px;
+}
 
+.sign-btn { 
+    padding: 0 20px;
+    color: rgb(253,254,254);
+    font-size: 12px;
+}
 
+.footer-nav { 
+    margin: 40px 0;
+    padding: 40px 0;
+    display: flex;
+    -webkit-display:flex;
+    -moz-display:flex;
+    -ms-display:flex;
+    -o-display:flex;
+}
 
+.menu-f {
+    width: 300px;
+    color: rgb(253,254,254);
+    text-transform: capitalize;
+    margin: 0 60px;
+    font-size: 15px;
+}
 
+.menu-f ul { padding-top: 20px; }
+.menu-f ul li { display: block; }
+
+.menu-f ul li a {
+    color: rgb(253,254,254);
+    font-size: 12px;
+}
+
+.menu-f ul li a:hover { text-decoration: underline; }
+.footer-nav h1 { display: block; }
+
+h5 {
+    font-size: 15px;
+    color: rgb(253,254,254);
+}
+.social ul { padding-top: 25px;}
+.social ul li a {
+    text-indent: -9999px;
+    display: inline-block;
+    position: relative;  
+}
+
+.facebook:before, 
+.twitter:before,
+.youtube:before, 
+.linkedin:before {
+    width: 18px;
+    margin-right: 7px;
+    border-radius: 50%;
+    text-align: center;
+    top: 0;
+    left: 36%;
+    float: right;
+    text-indent: 0;
+    font-family: "Fontawesome";
+    font-size: 16px;
+    padding: 8px;
+    background: white;
+   
+}
+
+.facebook:before { 
+    content:"\f09a";
+    color: rgb(44,94,171);
+}
+.twitter:before { 
+    content: "\f099";
+    color: rgb(0, 217, 255);
+}
+.youtube:before {
+     content: "\f04b";
+     color: rgb(252, 11, 11);
+    
+}
+.linkedin:before {
+    content: "\f0e1";
+    color: rgb(9, 160, 219);
+}
+
+.backToTop {}
  /*=================================
   footer styling ends here
 =================================*/ 
