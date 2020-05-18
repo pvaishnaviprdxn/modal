@@ -141,14 +141,18 @@ h1 a img {
 }
 /*head1 style end*/
 /*head2 style start*/
- .head2 { background-color: rgb(62,129,229); }
+.head2 { background-color: rgb(62,129,229); }
  
- .menu li a {
+.menu li a {
     text-transform: capitalize;
     padding:6px 10px;
     color: white;
     font-size: 12px;
- }
+}
+
+.menu li a:hover {
+    background-color: rgb(65,159,226);
+}
 
 
 /*head2 style end*/
