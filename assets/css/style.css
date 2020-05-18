@@ -141,6 +141,15 @@ h1 a img {
 }
 /*head1 style end*/
 /*head2 style start*/
+ .head2 { background-color: rgb(62,129,229); }
+ 
+ .menu li a {
+    text-transform: capitalize;
+    padding:6px 10px;
+    color: white;
+    font-size: 12px;
+ }
+
 
 /*head2 style end*/
 /*=================================
