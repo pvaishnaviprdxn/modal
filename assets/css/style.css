@@ -142,18 +142,51 @@ h1 a img {
 /*head1 style end*/
 /*head2 style start*/
 .head2 { background-color: rgb(62,129,229); }
- 
+.capitalize { text-transform: capitalize; }
+
 .menu li a {
     text-transform: capitalize;
     padding:6px 10px;
     color: white;
-    font-size: 12px;
+    font-size: 11.8px;
 }
 
-.menu li a:hover {
+.menu li a:hover,
+.menu-name.active {
     background-color: rgb(65,159,226);
 }
 
+.head3  { background-color: rgb(44,94,171); }
+
+.head3 .wrapper { padding-top: 80px; }
+.h3-title {
+    font-size: 25px;
+    color: rgb(253,254,254)
+}
+.head3 p { 
+    padding-right: 63%;
+    padding-bottom: 10px;
+    margin-top: 18px;
+    display: block;
+    color: rgb(64,159,226); 
+    font-size: 18px;
+}
+
+.date-place {
+    display: block;
+    font-size: 16px;
+    color: rgb(64,159,226);
+}
+
+.find {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 6px 20px;
+    display: inline-block;
+    background-color: rgb(64,159,226);
+    color: rgb(253,254,254);
+    font-size: 12px;
+}
 
 /*head2 style end*/
 /*=================================
